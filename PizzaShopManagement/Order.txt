@@ -1,0 +1,12 @@
+Customer Details:
+First Name: Hirushani
+Last Name: Umayanga
+Contact: 0777305202
+
+Order Details:
+Choice: Mutton Amu Miris
+Category: 2
+Price: Rs. 3899
+Quantity: 2
+Total Price: Rs. 7798.00
+Method: Dine-In

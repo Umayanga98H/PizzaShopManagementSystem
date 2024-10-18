@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet5" targetNamespace="http://tempuri.org/DataSet5.xsd" xmlns:mstns="http://tempuri.org/DataSet5.xsd" xmlns="http://tempuri.org/DataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet5" msprop:Generator_DataSetName="DataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Pizza_Details" msprop:Generator_RowEvHandlerName="Pizza_DetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="Pizza_DetailsRowDeleted" msprop:Generator_RowDeletingName="Pizza_DetailsRowDeleting" msprop:Generator_RowEvArgName="Pizza_DetailsRowChangeEvent" msprop:Generator_TablePropName="Pizza_Details" msprop:Generator_RowChangedName="Pizza_DetailsRowChanged" msprop:Generator_RowChangingName="Pizza_DetailsRowChanging" msprop:Generator_TableClassName="Pizza_DetailsDataTable" msprop:Generator_RowClassName="Pizza_DetailsRow" msprop:Generator_TableVarName="tablePizza_Details" msprop:Generator_UserTableName="Pizza_Details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Pizza_id" msprop:Generator_ColumnPropNameInRow="Pizza_id" msprop:Generator_ColumnPropNameInTable="Pizza_idColumn" msprop:Generator_ColumnVarNameInTable="columnPizza_id" msprop:Generator_UserColumnName="Pizza_id">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pizza_name" msprop:Generator_ColumnPropNameInRow="Pizza_name" msprop:Generator_ColumnPropNameInTable="Pizza_nameColumn" msprop:Generator_ColumnVarNameInTable="columnPizza_name" msprop:Generator_UserColumnName="Pizza_name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Price" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_UserColumnName="Price" type="xs:decimal" />
+              <xs:element name="Category" msprop:Generator_ColumnPropNameInRow="Category" msprop:Generator_ColumnPropNameInTable="CategoryColumn" msprop:Generator_ColumnVarNameInTable="columnCategory" msprop:Generator_UserColumnName="Category" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pizza_Details" />
+      <xs:field xpath="mstns:Pizza_id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
